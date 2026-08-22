@@ -11,9 +11,8 @@ pub fn main(init: std.process.Init) !void {
         .environ_map = init.environ_map,
         .size = .{ .w = 600.0, .h = 800.0 },
         .min_size = .{ .w = 250.0, .h = 350.0 },
-        // .fullscreen = true,
         .vsync = true,
-        .title = "DVUI SDL Standalone Example",
+        .title = "Tesselation Vizualizer",
     };
     try SDLBackend.initSDL();
     _ = SDLBackend.c.SDL_GL_SetAttribute(SDLBackend.c.SDL_GL_MULTISAMPLESAMPLES, 8);
