@@ -1,5 +1,5 @@
 .{
-    .fingerprint = 0xe46446ae749b646d,
+    .fingerprint = 0x2e8d9c1d1895f25a,
     .name = .libtess2_zig_example,
     .version = "1.0.0",
     .minimum_zig_version = "0.16.0",
