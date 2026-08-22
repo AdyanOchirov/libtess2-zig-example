@@ -1,4 +1,4 @@
-# Simple Tesselation Vizualizer
+# Simple Tesselation Visualizer
 
 ![image](image.png)
 
