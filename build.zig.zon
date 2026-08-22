@@ -1,0 +1,24 @@
+.{
+    .fingerprint = 0xe46446ae749b646d,
+    .name = .libtess2_zig_example,
+    .version = "1.0.0",
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .dvui = .{
+            .url = "git+https://github.com/david-vanderson/dvui?ref=main#32f2672404273518fcf83acdc736efb28f300473",
+            .hash = "dvui-0.5.0-dev-AQFJmd1PAQGWK6ERLIUfN970ozq3bMTzjOcrW_4ykcWg",
+        },
+        .libtess2 = .{
+            .url = "git+https://github.com/AdyanOchirov/libtess2-zig?ref=master#7b8788238399a44e4b2bf756119970294c9617e5",
+            .hash = "libtess2-1.0.0-nhuVsQh2AADEphgFFiAtdPq7kiHMotLONxMVj8-r7yjD",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE.txt",
+        "README.md",
+        "src",
+        "main.zig",
+    },
+}
